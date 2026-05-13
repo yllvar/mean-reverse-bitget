@@ -1,0 +1,3 @@
+(library
+ (name bitget_lib)
+ (libraries cohttp-lwt-unix yojson digestif base64 lwt tls-lwt))
