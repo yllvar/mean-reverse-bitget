@@ -1,3 +1,63 @@
 (executable
  (name main)
  (libraries bitget_lib))
+
+(executable
+ (name backtest)
+ (libraries bitget_lib))
+
+(executable
+ (name order_flow_analysis)
+ (libraries bitget_lib))
+
+(executable
+ (name order_flow_backtest)
+ (libraries bitget_lib))
+
+(executable
+ (name regime_analysis)
+ (libraries bitget_lib))
+
+(executable
+ (name regime_deep)
+ (libraries bitget_lib))
+
+(executable
+ (name regime_stops)
+ (libraries bitget_lib))
+
+(executable
+ (name regime_sizing)
+ (libraries bitget_lib))
+
+(executable
+ (name time_analysis)
+ (libraries bitget_lib))
+
+(executable
+ (name walk_forward)
+ (libraries bitget_lib))
+
+(executable
+ (name volatility_adjusted)
+ (libraries bitget_lib))
+
+(executable
+ (name risk_management)
+ (libraries bitget_lib))
+
+(executable
+ (name signal_params)
+ (libraries bitget_lib))
+
+(executable
+ (name final_validation)
+ (libraries bitget_lib))
+
+(executable
+ (name test)
+ (libraries bitget_lib))
+
+(executable
+ (name validate_exit)
+ (libraries bitget_lib))

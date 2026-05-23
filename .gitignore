@@ -2,3 +2,5 @@ _build/
 *.exe
 .env
 .DS_Store
+data/
+equity.csv
