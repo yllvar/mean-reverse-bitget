@@ -7,4 +7,4 @@ RUN opam exec -- dune build
 FROM alpine:3.19
 RUN apk add --no-cache ca-certificates libgcc gmp
 COPY --from=build /app/_build/default/bin/stock_trader.exe /app/stock_trader.exe
-CMD ["/app/stock_trader.exe", "--dry-run"]
+CMD ["/app/stock_trader.exe"]
